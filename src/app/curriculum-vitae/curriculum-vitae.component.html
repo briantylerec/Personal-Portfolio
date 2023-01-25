@@ -32,7 +32,7 @@
                         </div>
                         <p *ngIf="experience.detailIsDisplayed">
                             <span *ngFor="let mission of experience.missions;let index = index">
-                                <strong>{{'education.mission' | translate}} {{index+1}}: </strong>{{mission}} <br>
+                                <strong>{{'education.mission' | translate}}</strong>{{mission}} <br>
                             </span>
                             <strong>{{'education.technologies' | translate}}:</strong> {{experience.technologies}}
                         </p>
@@ -44,14 +44,16 @@
                 <div class="container row">
                     <div class="aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
                         <h4><strong>{{'education.languages' | translate}}</strong></h4>
-                        <div class="noProgress langue">
-                            <span class=""><img src="assets/images/france-flag.png" width="20"
-                                    alt="drapeau de la france"><strong> {{'education.french' | translate}}</strong> <i class="val">
+                        <div class="noProgress langue pt-2">
+                            <span class=""><img src="assets/images/es.png" width="20"
+                                    alt="drapeau de la france"><strong> {{'education.spanish' | translate}}</strong> <i class="val">
                                         {{'education.fluent' | translate}}</i></span>
                         </div>
                         <div class="noProgress langue">
-                            <span class=""><img src="assets/images/united-kingdom-flag.png" width="20"
-                                    alt="drapeau du royaume uni"><strong> {{'education.english' | translate}}</strong> <i class="val"> {{'education.goodLevel' | translate}}</i></span>
+                            <span class=""><img src="assets/images/en.png" width="20"
+                                    alt="drapeau du royaume uni"><strong> {{'education.english' | translate}}</strong> <i class="val">
+                                        <a href="https://www.efset.org/cert/HTRJEg">{{'education.goodLevel' | translate}}</a>
+                                        </i></span>
                         </div>
                     </div>
                 </div>
@@ -60,21 +62,13 @@
                         <h4><strong>{{'education.centerOfInterest' | translate}}</strong></h4>
                         <div class="noProgress langue">
                             <span>
-                                <fa-icon [icon]="volleyBallIcon"></fa-icon><strong> {{'education.sport' | translate}}</strong> <i class="val"> 5 {{'education.years' | translate}}
-                                    Volley Ball</i>
-                            </span>
-                        </div>
-
-                        <div class="noProgress langue">
-                            <span>
-                                <fa-icon [icon]="planeIcon"></fa-icon><strong> {{'education.trips' | translate}}</strong> <i class="val">
-                                    {{'education.tripsCountries' | translate}} </i>
-                            </span>
-                        </div>
-                        <div class="noProgress langue">
-                            <span>
-                                <fa-icon [icon]="gameIcon"></fa-icon><strong> {{'education.boardGames' | translate}} </strong> <i class="val">
-                                    {{'education.boardGamesPlayed' | translate}} </i>
+                                <i class="val" ><a href="https://drive.google.com/file/d/1zPbzFCMeH7DXh8JyUPs-Guj07G0nNDtT/view"> · Mobile Apps Developer - Google</a></i><br>
+                                <i class="val" ><a href="https://www.credly.com/earner/earned/badge/5520a1cb-6040-458b-befb-e577534da028"> · Scrum Master - CertiProf™</a></i><br>
+                                <i class="val" ><a href="https://www.credly.com/badges/0a0fb373-71f9-40cb-aae6-853e8cb91946"> · Business Intelligence - CertiProf™</a></i><br>
+                                <i class="val" ><a href="https://www.udemy.com/certificate/UC-dfdad29f-3da8-41a9-bf6c-6245c6b6a0fb/"> · AWS Certified Cloud Practitioner - Udemy</a></i><br>
+                                <i class="val" ><a href="https://www.udemy.com/certificate/UC-f1344b89-9afb-4263-a6a4-307d4de482f0"> · AWS Certified Developer - Udemy</a></i><br>
+                                <i class="val" ><a href="https://www.efset.org/cert/HTRJEg"> · EF SET English Certificate C1 Advanced</a></i><br>
+                                <i class="val" ><a href="https://www.linkedin.com/in/briantylerec/details/certifications/"> · More courses about Android</a></i><br>
                             </span>
                         </div>
                     </div>

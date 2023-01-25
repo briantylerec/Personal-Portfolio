@@ -4,15 +4,15 @@ export const locale = {
         'about': {
             'title': 'Sobre mi',
             'jobTitle': "Desarrollador de aplicaciones Moviles",
-            'introductionOfMe': "Apasionado de las nuevas tecnologías y métodos de trabajo. Me gusta generar ideas que permitan mejorar los procesos comerciales. Me adapto fácilmente a cualquier equipo de desarrollo con capacidad para liderar proyectos. Me gusta colaborar en cualquier área.",
-            'passionateAboutDevelopment':'Además dispongo nivel de inglés C1, facilidad de expresión en público y certificación como Scrum Master.',
+            'introductionOfMe': "Soy ingeniero en sistemas con 3 años de experiencia en desarrollo, ultimamente enfocado en desarrollo de software móvil en Android (java / kotlin) siguiendo buenas practicas de programacion como principios SOLID, desarrollo siguiendo metodologías ágiles como Scrum. He estado involucrado en todo el proceso, desde desarrollo, versionamiento mediante git, control de calidad (QA) y la implementación en ambientes de producción, y posterior publicación de aplicaciones en PlayStore. Actualmente mediante cursos estudio sobre más herramientas que mejoren mi conocimiento sobre android con patrones de diseño, arquitecturas y devops.  Adicionalmente tengo conocimientos básicos de flutter, vue y swift, incluido el despliegue en AppStore con XCode; comprensión de spring boot para microservicios y angular en front-end; uso de servicios en la nube como AWS, Azure y GCP, CI/CD y devops.",
+            'passionateAboutDevelopment':'',
             'city': 'Cuenca, Azuay',
             'country': 'Ecuador',
             'mail': 'Brianmoraa@gmail.com',
             'years': '29 años',
             'graduation': "Ingeniero de Sistemas",
             'myResearch': 'Proyectos innovadores',
-            'researchDescription': "Me gusta afrontar nuevos retos y proyectos innovadores en empresas centradas en el usuario para satisfacer mejor las necesidades del cliente, desde su idea hasta la entrega final de su proyecto, o participar en la mejora de un proyecto existente utilizando nuevas tecnologías.",
+            'researchDescription': "Soy apasionado de las nuevas tecnología, me gusta generar ideas que permitan mejorar los procesos, tengo fácilidad de adaptacion a cualquier equipo/área de desarrollo con capacidad para liderar proyectos y toma de desiciones.",
             'and':'et',
             'followMeOn':'Sigueme en',
             'followLinkedin':'Sigueme en: ',
@@ -33,17 +33,17 @@ export const locale = {
             'title': 'Hoja de Vida',
             'eductionTitle': 'Éducacion',
             'experiencesTitle': 'Experiencia',
-            'centerOfInterest': "Intereses",
+            'centerOfInterest': "Certificaciones | Cursos",
             'sport': 'Sport',
             'trips': 'Voyages',
             'boardGames': 'Jeux de société',
-            'languages': 'Langues',
-            'fluent': 'Courant',
-            'goodLevel': 'Bon niveau',
+            'languages': 'Idiomas',
+            'fluent': 'Nativo',
+            'goodLevel': ' C1 CERF-EF SET',
             'spanish': 'Español',
             'english': 'Ingles',
 
-            'bachlorDegree': "Titulo de Terce Nivel",
+            'bachlorDegree': "Titulo de Tercer Nivel",
             'bachlorDegreeDesc': "Ingeniero de Sistemas",
             'university': 'Universidad de Cuenca, EC',
             
@@ -51,9 +51,9 @@ export const locale = {
             'highSchoolDesc': "Bachiller Tecnico en Comercio y Administracion: Aplicaciones Informaticas",
             'high': 'Instituto Tecnológico Superior Francisco Febres Cordero, EC',
 
-            'mission':'Mission',
+            'mission':'· ',
             'technologies':'Téchnologies',
-            'detail':'Détail',
+            'detail':'',
             'tripsCountries':'Belgique, Espagne, Pays-Bas, Suisse',
             'boardGamesPlayed':'Jeu de dames et de dominos, Among US, Ludo, ..etc',
             'years':'ans'
@@ -69,7 +69,7 @@ export const locale = {
             
         },
         'home': {
-            'iAmDeveloper': 'Je suis ',
+            'iAmDeveloper': 'Yo soy ',
         },
         'projects': {
             'title': 'Projets',
