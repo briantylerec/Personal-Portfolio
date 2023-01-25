@@ -60,7 +60,7 @@ export const locale = {
         },
         'header': {
             'home': 'Inicio',
-            'about': 'Sobre me',
+            'about': 'Sobre mi',
             'skills': 'Habilidades',
             'cv': 'CV',
             'portfolio': 'Portafolio',
